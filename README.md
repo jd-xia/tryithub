@@ -1,4 +1,6 @@
-# tryithub is a GitHub repository created to collect various sample practices and demonstration programs.
+# tryithub 
+
+is a GitHub repository created to collect various sample practices and demonstration programs.
 
 It includes coding exercises such as LeetCode or HackerRank-style problems, as well as small demo projects used to learn and experiment with different designs, technologies, and programming concepts.
 
