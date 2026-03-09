@@ -1,0 +1,43 @@
+.send-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.send-form input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.send-form input::placeholder {
+  opacity: 0.6;
+}
+
+.send-form input:disabled {
+  opacity: 0.6;
+}
+
+.send-form button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #3b82f6;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.send-form button:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+.send-form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
